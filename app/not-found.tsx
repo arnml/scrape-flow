@@ -17,15 +17,15 @@ function NotFoundPage() {
           internet
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <Link
+            <Link
             href={"/"}
             className="flex items-center justify-center px-4 py-2 bg-primary text-white
              rounded-md hover:bg:primary/80 transition-colors
-             animate-pulse"
-          >
+             animate-pulse dark:text-black"
+            >
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Dashboard
-          </Link>
+            </Link>
         </div>
         <footer className="mt-12 text-center text-sm text-muted-foreground">
           If you belive this is an error, please contact our support team
