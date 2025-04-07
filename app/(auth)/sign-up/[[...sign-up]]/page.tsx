@@ -1,4 +1,3 @@
-'use client';
 import { SignUp } from '@clerk/nextjs'
 
 // Add this function to enable static exports
